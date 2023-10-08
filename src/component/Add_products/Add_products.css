@@ -1,0 +1,72 @@
+.container{
+    padding: 0 !important;
+}
+.page-header{
+    margin-bottom: 26px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(231, 234, 243, .7);
+}
+.page-header-title{
+    margin-bottom: 8px;
+    color: #1e2022;
+    font-size: 22px;
+    font-weight: 600;
+}
+.card{
+    box-shadow: 0 6px 12px rgba(140,152,164,.075);
+}
+.card-header:first-child{
+    border-top-right-radius: 11px !important;
+    border-top-left-radius: 11px !important;
+}
+.card-header{
+    padding: 16px 21px !important;
+    background-color: transparent !important;
+}
+.card-header-title{
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1e2022;
+}
+.card-body{
+    padding: 21px !important;
+}
+.form-control:focus, .form-select:focus {
+    color: #1e2022 !important;
+    background-color: #fff !important;
+    border-color: rgba(140,152,164,.25) !important;
+    outline: 0 !important;
+    box-shadow: 0 0 1rem 0 rgba(140,152,164,.25) !important;
+}
+.input-group input[type= number]::-webkit-outer-spin-button,.input-group input[type= number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+.form-select:valid:not([multiple]):not([size]){
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+}
+
+
+.form-select:valid:not([multiple]):not([size]).cate_InValid{
+    border-color: #dc3545;
+    padding-right: calc(1.5em + 0.75rem);
+    background-image: url('../../../public/invalid.svg');
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+
+}
+.invalid-feedback.cateInvalid{
+    display: block;
+}
+
+.form-control:valid.cate_InValid{
+    border-color: #dc3545 !important;
+    padding-right: calc(1.5em + 0.75rem);
+    background-image: url('../../../public/invalid.svg') !important;
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
